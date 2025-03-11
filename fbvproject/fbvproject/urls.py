@@ -20,8 +20,8 @@ from testapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.retrieve_view, name='retrieve_view'),
-    path('list/', views.EmployeeListView.as_view(),name='list'),
+    #path('', views.retrieve_view, name='retrieve_view'),
+    path('', views.EmployeeListView.as_view(),name='list'),
     path('<int:pk>/',views.EmployeeDetailView.as_view()),
     path('insert/',views.insert_view),
     path('create/',views.EmployeeCreateView.as_view()),
