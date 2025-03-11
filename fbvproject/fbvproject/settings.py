@@ -81,7 +81,7 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE'  : 'django.db.backends.mysql',
-        'NAME'    : 'python_db',
+        'NAME'    : 'sagarc$python_db',
         'USER':'sagarc',
         'PASSWORD':'root@123',
         'HOST' : 'sagarc.mysql.pythonanywhere-services.com',
