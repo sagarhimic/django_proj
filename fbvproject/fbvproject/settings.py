@@ -84,7 +84,11 @@ DATABASES = {
         'NAME'    : 'sagarc$python_db',
         'USER'    : 'sagarc',
         'PASSWORD':'root@123',
-        'HOST'    : 'sagarc.mysql.pythonanywhere-services.com'
+        'HOST'    : 'sagarc.mysql.pythonanywhere-services.com',
+        'PORT': '3306',  # Explicitly set the port
+        'OPTIONS': {
+            'charset': 'utf8mb4',  # Avoid encoding issues
+        },
     }
 }
 
