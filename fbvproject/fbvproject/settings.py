@@ -82,9 +82,9 @@ DATABASES = {
         #'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE'  : 'django.db.backends.mysql',
         'NAME'    : 'python_db',
-        'USER':'root',
-        'PASSWORD':'',
-        'HOST' : 'localhost',
+        'USER':'sagarc',
+        'PASSWORD':'root@123',
+        'HOST' : 'sagarc.mysql.pythonanywhere-services.com',
         'PORT' : '3306',
         'OPTIONS': {
             'charset': 'utf8mb4',  # Supports special characters
