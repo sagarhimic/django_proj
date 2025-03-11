@@ -78,17 +78,13 @@ WSGI_APPLICATION = 'fbvproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': BASE_DIR / 'db.sqlite3',
+        #'ENGINE' : 'django.db.backends.sqlite3',
+        #'NAME'   : BASE_DIR / 'db.sqlite3',
         'ENGINE'  : 'django.db.backends.mysql',
         'NAME'    : 'sagarc$python_db',
         'USER'    : 'sagarc',
         'PASSWORD':'root@123',
-        'HOST'    : 'sagarc.mysql.pythonanywhere-services.com',
-        'PORT'    : '3306',
-        'OPTIONS': {
-            'charset': 'utf8mb4',  # Supports special characters
-        },
+        'HOST'    : 'sagarc.mysql.pythonanywhere-services.com'
     }
 }
 
