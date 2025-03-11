@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container" align='center'>
+      <h1>Do you want to really delete Employee:{{employee.ename}}?????</h1>
+      <form method="post">
+        {{form.as_p}}
+        {% csrf_token %}
+        <input type="submit" class='btn btn-danger' name="" value="Delete Employee">
+        <a class="btn btn-success" href="/list">Cancel(Don't Delete)</a>
+      </form>
+    </div>
+  </body>
+</html>
